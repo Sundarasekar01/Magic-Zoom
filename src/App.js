@@ -4,6 +4,7 @@ import './App.css'
 import CreateElement from './components/CreateElement';
 import PropsFunc from './components/PropsFunc'
 import PropsClass from './components/PropsClass'
+import StateClass from './components/StateClass'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <CreateElement/>
       <PropsFunc FirstName='Sundara' LastName='Sekar'/>
       <PropsClass Sentence='Happy Coding'/>
+      <StateClass/>
     </div>
   );
 }
