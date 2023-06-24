@@ -7,7 +7,7 @@ import PropsClass from './components/PropsClass'
 import StateClass from './components/StateClass'
 import Counter from './components/Counter'
 import EventHandler from './components/EventHandler'
-
+import ParentComp from './components/parentComp'
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       <StateClass/>
       <Counter/>
       <EventHandler/>
+      <ParentComp/>
     </div>
   );
 }
