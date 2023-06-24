@@ -1,10 +1,13 @@
-import {Greet} from './components/Greet'
+import Greet from './components/Greet'
+import Welcome from './components/Welcome'
+import './App.css'
 
 function App() {
   return (
-    <div>
-      <h1>hello</h1>
+    <div className='App'>
+      <h1>Hello Normal Text</h1>
       <Greet/>
+      <Welcome/> 
     </div>
   );
 }

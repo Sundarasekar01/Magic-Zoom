@@ -1,8 +1,9 @@
-import react from 'react'
+import React from 'react'
 
 // function Greet(){
 //     return <h1>hello my name is sundara</h1>
 // }
 
-export const Greet = ()=><h1>hello guys</h1>
+ const Greet = ()=><h1>Hello Functional Component</h1>
 
+ export default Greet
