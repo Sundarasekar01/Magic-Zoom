@@ -9,7 +9,7 @@ import PropsClass from './components/PropsClass'
 function App() {
   return (
     <div className='App'>
-      <h1>Hello Normal Text</h1>
+      <h1>Normal Text </h1>
       <Greet/>
       <Welcome/> 
       <CreateElement/>

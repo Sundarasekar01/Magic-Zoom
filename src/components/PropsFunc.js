@@ -2,7 +2,7 @@
 
 
 const Functional = props =>{
-return <h1>Welcome {props.FirstName}{props.LastName}</h1>
+return <h1>Props in FunctionalComp - {props.FirstName}{props.LastName}</h1>
 }
 
 
