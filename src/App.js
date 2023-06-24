@@ -6,6 +6,7 @@ import PropsFunc from './components/PropsFunc'
 import PropsClass from './components/PropsClass'
 import StateClass from './components/StateClass'
 import Counter from './components/Counter'
+import EventHandler from './components/EventHandler'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <PropsClass Sentence='Happy Coding'/>
       <StateClass/>
       <Counter/>
+      <EventHandler/>
     </div>
   );
 }
