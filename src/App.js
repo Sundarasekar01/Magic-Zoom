@@ -1,6 +1,10 @@
-import Greet from './components/Greet'
-import Welcome from './components/Welcome'
+import Greet from './components/Functional'
+import Welcome from './components/Class'
 import './App.css'
+import CreateElement from './components/CreateElement';
+import PropsFunc from './components/PropsFunc'
+import PropsClass from './components/PropsClass'
+
 
 function App() {
   return (
@@ -8,6 +12,9 @@ function App() {
       <h1>Hello Normal Text</h1>
       <Greet/>
       <Welcome/> 
+      <CreateElement/>
+      <PropsFunc FirstName='Sundara' LastName='Sekar'/>
+      <PropsClass Sentence='Happy Coding'/>
     </div>
   );
 }
