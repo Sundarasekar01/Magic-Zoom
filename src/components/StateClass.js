@@ -10,7 +10,6 @@ class StateClass extends Component{
         }
     }
 
-
     Change(){
         this.setState({
             Display:'Its working'

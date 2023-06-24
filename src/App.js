@@ -5,6 +5,7 @@ import CreateElement from './components/CreateElement';
 import PropsFunc from './components/PropsFunc'
 import PropsClass from './components/PropsClass'
 import StateClass from './components/StateClass'
+import Counter from './components/Counter'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <PropsFunc FirstName='Sundara' LastName='Sekar'/>
       <PropsClass Sentence='Happy Coding'/>
       <StateClass/>
+      <Counter/>
     </div>
   );
 }

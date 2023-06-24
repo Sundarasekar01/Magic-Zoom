@@ -6,5 +6,4 @@ class ClassComp extends Component{
     }
 }
 
-
 export default ClassComp
