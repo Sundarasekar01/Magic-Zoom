@@ -8,6 +8,7 @@ import StateClass from './components/StateClass'
 import Counter from './components/Counter'
 import EventHandler from './components/EventHandler'
 import ParentComp from './components/parentComp'
+import ConditionalRender from './components/ConditionalRender';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Counter/>
       <EventHandler/>
       <ParentComp/>
+      <ConditionalRender/>
     </div>
   );
 }
