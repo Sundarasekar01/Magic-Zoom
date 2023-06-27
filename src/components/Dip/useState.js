@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react'
+import React,{useEffect, useRef, useState} from 'react'
 
 
 
@@ -6,11 +6,14 @@ function Use() {
 
     const [value,setValue] = useState(0)
     const [name,setName] = useState('')
-
+    const Inputs = useRef('')
+    console.log(Inputs)
+    
 
     useEffect(()=>
     console.log('loaded'),[value]
     )
+
 
     
 const ChangeMin=()=>{
