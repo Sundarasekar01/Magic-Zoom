@@ -9,11 +9,22 @@ import Counter from './components/Counter'
 import EventHandler from './components/EventHandler'
 import ParentComp from './components/parentComp'
 import ConditionalRender from './components/ConditionalRender';
+import User from './components/Dip/useState'
 
 function App() {
   return (
     <div className='App'>
-      <h1>Normal Text </h1>
+
+
+      <User/>
+
+
+
+
+
+
+
+      {/* <h1>Normal Text </h1>
       <Greet/>
       <Welcome/> 
       <CreateElement/>
@@ -23,7 +34,7 @@ function App() {
       <Counter/>
       <EventHandler/>
       <ParentComp/>
-      <ConditionalRender/>
+      <ConditionalRender/> */}
     </div>
   );
 }
