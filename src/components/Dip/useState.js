@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 
 
 
@@ -6,6 +6,11 @@ function Use() {
 
     const [value,setValue] = useState(0)
     const [name,setName] = useState('')
+
+
+    useEffect(()=>
+    console.log('loaded'),[value]
+    )
 
     
 const ChangeMin=()=>{
@@ -25,8 +30,8 @@ const ChangeMin=()=>{
     <button onClick={ChangeMax}>Increment</button>
     <button onClick={ChangeMin}>Decrement</button>
 
-    <h1>Hello{name}</h1>
-    <button onClick={Change}>Decrement</button>
+    <h1>Hello {name}</h1>
+    <button onClick={Change}>Change</button>
     </div>
   )
 }
