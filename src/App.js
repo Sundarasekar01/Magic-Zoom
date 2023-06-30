@@ -33,7 +33,6 @@ function App() {
       <StateClass/>
       <Counter/>
       <EventHandler/>
-      <ParentComp/>
       <ConditionalRender/> */}
     </div>
   );
