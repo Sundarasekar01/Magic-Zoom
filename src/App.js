@@ -1,4 +1,4 @@
-import Greet from './components/Cevolution/Functional'
+
 import Welcome from './components/Cevolution/Class'
 import './App.css'
 import CreateElement from './components/Cevolution/CreateElement';
