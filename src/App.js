@@ -7,7 +7,7 @@ import PropsClass from './components/Cevolution/PropsClass'
 import StateClass from './components/Cevolution/StateClass'
 import Counter from './components/Cevolution/Counter'
 import EventHandler from './components/Cevolution/EventHandler'
-import ParentComp from './components/Cevolution/parentComp'
+
 import ConditionalRender from './components/Cevolution/ConditionalRender';
 import User from './components/Dip/useState'
 
